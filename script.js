@@ -52,7 +52,7 @@ var cassetta = [
     }
 ];
 
-var peso = 0
+var peso = 0;
 
 for (i = 0; i < cassetta.length; i++) {
     var currentWeight = cassetta[i].weight;
@@ -61,8 +61,8 @@ for (i = 0; i < cassetta.length; i++) {
 
 console.log(peso);
 //dividi in due array separati le zucchine che misurano meno o più di 15 cm.
-var cassettaShort = []
-var cassettaLong = []
+var cassettaShort = [];
+var cassettaLong = [];
 
 for (i = 0; i < cassetta.length; i++) {
     if (cassetta[i].length <= 15){
